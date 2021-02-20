@@ -3,6 +3,7 @@ import Blog from "./classComponents/Blog";
 import Blog2 from "./classComponents2/Blog";
 import Blog3 from "./classComponents3/Blog";
 import Blog4 from "./classComponents4/Blog";
+import Blog5 from "./HookComponents/Blog";
 
 export default function App() {
   return (
@@ -15,6 +16,8 @@ export default function App() {
       <Blog3 />
       <div>--------------</div>
       <Blog4 />
+      <div>--------------</div>
+      <Blog5 />
     </div>
   );
 }
